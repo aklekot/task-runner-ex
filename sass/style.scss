@@ -1,3 +1,52 @@
-.navbar-brand {
-    color: yellow;
+.navbar-brand.myNav {
+    color: #ffcc00 !important;
+}
+
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mybutton {
+    background-color: #ffcc00 !important;
+    color: #ffffff !important;
+}
+
+
+.mycard {
+    border: none;
+    background-color: transparent;
+}
+
+.services [class^="fa-"] {
+    color: #ffcc00;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.portfolio {
+    background: #ececec;
+}
+
+.footer [class^="fa-"] {
+    color: #fff;
+    background: #000;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-left: 8px;
 }
